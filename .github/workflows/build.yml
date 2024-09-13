@@ -73,7 +73,7 @@ jobs:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./build/*
-          release_name: Youtube - ${{ steps.extract_version.outputs.VERSION }}
+          release_name: v${{ steps.extract_version.outputs.VERSION }}
           tag: ${{ steps.extract_version.outputs.VERSION }}
           file_glob: true
           overwrite: true
