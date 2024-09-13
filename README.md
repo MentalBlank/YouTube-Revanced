@@ -45,7 +45,7 @@
  - Option to use a different host for user avatar and channel images to fix missing images blocked in some countries.
  - Options to replace video thumbnails using the DeArrow API or image captures from the video.
  - Options for theming and applying a custom background theme (default dark background theme is amoled black).
- - Add support to download videos with an external downloader app using the in-app download button or video player action button.
+ - Support to download videos with an external downloader app using the in-app download button or video player action button.
  - Options to display buttons in the video player to copy video URLs.
  - Option to remove the dialog that appears for age-restricted videos by accepting it automatically.
  - Options to enable and configure volume and brightness swipe controls.
